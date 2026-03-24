@@ -28,4 +28,4 @@ jobs:
           FEEDONOMICS_API_KEY: ${{ secrets.FEEDONOMICS_API_KEY }}
           GOOGLE_CREDS_JSON: ${{ secrets.GOOGLE_CREDS_JSON }}
           SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
-        run: python custom_labels_pipeline.py
+        run: python script.py
